@@ -1,44 +1,64 @@
-📄 PDF Data Extraction Using LLMs
-This project implements a powerful Retrieval-Augmented Generation (RAG) system for extracting and retrieving information from PDFs. Leveraging Large Language Models (LLMs) and FAISS for semantic search and vector embeddings, this project demonstrates an end-to-end workflow for processing PDF documents, enabling advanced question-answering capabilities.
+To increase the text size for your README on GitHub, you can use Markdown headers, bold text, and even HTML styling to make certain sections more prominent. Here’s how you can modify the README to improve readability with larger text:
 
-📂 Project Overview
-PDF Data Extraction Using LLMs is designed to streamline document processing, providing a highly accurate solution for information retrieval from complex PDF documents. This tool includes:
+---
 
-Text Extraction & Preprocessing: Efficiently extracts text from PDFs, with support for chunking and cleaning.
-Vector Embedding & Similarity Search: Uses FAISS and LLM-generated embeddings to build a robust vector store, enabling high-accuracy similarity search.
-Interactive UI: Built with Streamlit, the UI supports file uploads and real-time query processing.
-🚀 Features
-Semantic Search: Employs vector embeddings and FAISS for optimized retrieval accuracy.
-RAG Integration: Combines LLMs with FAISS for high-performance document search and question-answering.
-Responsive UI: User-friendly interface powered by Streamlit, enabling seamless file uploads and interactive querying.
-🛠️ Technologies Used
-Programming Language: Python 🐍
-Libraries: FAISS, Streamlit, LangChain, and Large Language Models (Google GenAI)
-Other Tools: Data extraction and visualization tools for PDF processing
-📈 Project Structure
-PDF_Data_Extraction_Using_LLMs.ipynb: Main Jupyter Notebook implementing PDF extraction, vector embedding, and semantic search.
-app.py: Streamlit application for interactive PDF uploads and query processing (optional if part of the project).
-🔧 Setup and Installation
-Clone the Repository:
+# 🗂️ **PDF Data Extraction Using LLMs**
 
-bash
-Copy code
-git clone https://github.com/your-username/PDF_Data_Extraction_Using_LLMs.git
-cd PDF_Data_Extraction_Using_LLMs
-Install Requirements:
+## 🚀 Project Overview
 
-bash
-Copy code
-pip install -r requirements.txt
-Run Streamlit Application:
+**PDF Data Extraction Using LLMs** is a comprehensive **Retrieval-Augmented Generation (RAG) system** for processing PDF documents. This project uses **Large Language Models (LLMs)** and **FAISS** for semantic search and vector embeddings, providing high-accuracy information retrieval and question-answering capabilities.
 
-bash
-Copy code
-streamlit run app.py
-🧑‍💻 Usage
-Upload your PDF documents through the Streamlit UI.
-Enter queries to retrieve relevant information using semantic search.
-Get answers from the integrated LLM-powered RAG system.
-💡 Future Enhancements
-Multilingual Support: Extend LLM and search capabilities to handle multiple languages.
-Improved Document Parsing: Add support for extracting structured data (tables, lists, etc.) from PDFs.
+---
+
+## 📈 **Features**
+
+- **Semantic Search**: Powered by FAISS, optimized for high-accuracy document search.
+- **RAG Integration**: Combines LLMs with FAISS for enhanced document search and real-time question-answering.
+- **User-Friendly UI**: Built with Streamlit for easy PDF upload and interactive querying.
+
+---
+
+## 🛠️ **Technologies Used**
+
+- **Programming**: Python 🐍
+- **Libraries**: FAISS, Streamlit, LangChain, and Google GenAI
+- **Tools**: PDF data extraction and visualization tools
+
+---
+
+## 📂 **Project Structure**
+
+- **`PDF_Data_Extraction_Using_LLMs.ipynb`**: Main Notebook implementing PDF extraction, vector embedding, and semantic search.
+- **`app.py`**: Streamlit app for interactive PDF uploads and querying (optional).
+
+---
+
+## 🔧 **Setup and Installation**
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/PDF_Data_Extraction_Using_LLMs.git
+   cd PDF_Data_Extraction_Using_LLMs
+   ```
+
+2. **Install Requirements**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run Streamlit Application**:
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+## 📚 **Usage**
+
+1. **Upload** PDFs through the Streamlit UI.
+2. **Query** to retrieve relevant information using semantic search.
+3. **Receive Answers** powered by LLM and FAISS integration.
+
+---
+
+Adding headers, bold text, and short lines with clear sections makes the README more readable on GitHub and gives it a structured look. Let me know if you’d like to adjust any specific sections further!
