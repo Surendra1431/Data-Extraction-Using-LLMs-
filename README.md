@@ -1,7 +1,3 @@
-To increase the text size for your README on GitHub, you can use Markdown headers, bold text, and even HTML styling to make certain sections more prominent. Here’s how you can modify the README to improve readability with larger text:
-
----
-
 # 🗂️ **PDF Data Extraction Using LLMs**
 
 ## 🚀 Project Overview
@@ -61,4 +57,4 @@ To increase the text size for your README on GitHub, you can use Markdown header
 
 ---
 
-Adding headers, bold text, and short lines with clear sections makes the README more readable on GitHub and gives it a structured look. Let me know if you’d like to adjust any specific sections further!
+
